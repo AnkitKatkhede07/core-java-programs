@@ -1,0 +1,50 @@
+To solve a string problem step by step, use this pattern:
+
+Read the problem carefully.
+Ask: what is input, what is output, and what exactly is being asked?
+Find the type of problem.
+Common string problems are:
+
+reverse string, palindrome, count vowels, remove spaces, find duplicate characters, compare strings, substring search.
+Break the string into characters.
+
+In Java, you usually use:
+charAt(i) or toCharArray().
+
+Decide the logic.
+Think in small steps, not full code first.
+Write a dry run on paper.
+
+Check how values change for each character.
+Then write code.
+
+Test with:
+
+normal input,
+empty string,
+one character,
+spaces,
+uppercase/lowercase.
+
+
+
+Common String Methods
+Method	Work
+length()	String length काढतो
+charAt()	Specific index चा character देतो
+toUpperCase()	Uppercase मध्ये convert
+toLowerCase()	Lowercase मध्ये convert
+equals()	2 strings compare
+equalsIgnoreCase()	Case ignore करून compare
+contains()	Word/string present आहे का
+startsWith()	सुरुवात check
+endsWith()	शेवट check
+substring()	String चा part काढतो
+replace()	Character replace
+trim()	Extra spaces remove
+indexOf()	Character position
+lastIndexOf()	Last occurrence
+isEmpty()	String empty आहे का
+concat()	2 strings join
+split()	String divide
+toCharArray()	char array मध्ये convert
