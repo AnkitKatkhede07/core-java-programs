@@ -8,6 +8,7 @@ public class VowelCount {
 		Scanner sc= new Scanner(System.in);
 		String str=sc.nextLine();
 		int count=0;
+		 int consonants=0;
 		for(int i=0;i<str.length();i++) {
 			
 	 char ch =  Character.toLowerCase(str.charAt(i));//Important method convert string character
@@ -17,10 +18,15 @@ public class VowelCount {
 	 {
 		 count++;
 	 }
+	 else if(ch >= 'a' && ch <= 'z') {
+        
+		 consonants++;
+     }
 		
 		sc.close();
 		
 	}System.out.println("VowelCount : "+count);
+	System.out.println("consonants Count : "+consonants);
 	}
 
 }
