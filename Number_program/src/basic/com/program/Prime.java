@@ -1,9 +1,13 @@
 package basic.com.program;
 
+import java.util.Scanner;
+
 public class Prime {
 
 	public static void main(String[] args) {
-		int n=4;
+		Scanner sc = new Scanner(System.in);
+    	System.out.print("Enter a Number : ");
+        int n = sc.nextInt();;
 		boolean flag=true;
 		if(n<=1) {
 			flag=false;
@@ -17,6 +21,7 @@ public class Prime {
 			}
 		}
 		System.out.println(flag? "prime":"not prime");
+		sc.close();
 	}
 
 }
