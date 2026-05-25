@@ -1,4 +1,4 @@
-package string.com;
+package string;
 
 public class Frequency_Each_Character {
 
