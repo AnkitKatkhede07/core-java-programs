@@ -22,9 +22,11 @@ public class BinarySearchExample {
 			if(arr[mid]==target) {
 				index=mid;
 				break;
-			}else if(arr[mid]<target) {
+			}
+			else if(arr[mid]<target) {
 				low=mid+1;
-			}else {
+			}
+			else {
 				high=mid-1;
 			}
 		}
